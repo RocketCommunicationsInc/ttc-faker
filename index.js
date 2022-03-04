@@ -1,4 +1,5 @@
 import { generateAlert } from "./alerts.js";
+import { generateStatusData } from "./status.js";
 
 function generateStatus() {
   const statues = [
@@ -52,25 +53,6 @@ function generateSystemHealth() {
         'status': generateStatus(),
       },
     },
-  };
-}
-
-function generateStatusData() {
-  function genStatus() {
-    return {
-      worstStatus: generateStatus(),
-      numMessages: parseInt(Math.random() * 50),
-    };
-  }
-
-  return {
-    'ucaStatus': genStatus(),
-    'softwareStatus': genStatus(),
-    'rfStatus': genStatus(),
-    'digitalStatus': genStatus(),
-    'commsStatus': genStatus(),
-    'facilitiesStatus': genStatus(),
-    'timestamp': Date.now(),
   };
 }
 
