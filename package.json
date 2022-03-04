@@ -1,0 +1,16 @@
+{
+  "name": "ttc-faker",
+  "version": "0.0.1",
+  "description": "A library that generates fake data for TT&C apps.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Cristea <paul.cristea@rocketcom.com>",
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
