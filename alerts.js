@@ -36,7 +36,7 @@ let getErrorMessage = (category) => {
   }
   let minutes = d.getUTCMinutes();
   if ( minutes < 10 ) {
-    minutes = "0" + minute;
+    minutes = "0" + minutes;
   }
   let seconds = d.getUTCSeconds();
   if ( seconds < 10 ) {

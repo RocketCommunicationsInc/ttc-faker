@@ -2,6 +2,7 @@
   "name": "ttc-faker",
   "version": "0.0.1",
   "description": "A library that generates fake data for TT&C apps.",
+  "repository": "git@github.com:RocketCommunicationsInc/ttc-faker.git",
   "private": true,
   "main": "index.js",
   "scripts": {
